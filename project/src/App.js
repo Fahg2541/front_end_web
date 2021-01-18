@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar';
 import SiteNavbar from './Components/SiteNavbar';
+import Footer from './Components/Footer';
 import {
   BrowserRouter as Router,
   Switch,
@@ -44,7 +45,9 @@ class App extends React.Component {
           <Route path="/">
             <Welcome />
           </Route>
+          
         </Switch>
+        <Footer />
       </Router>
     )
   }

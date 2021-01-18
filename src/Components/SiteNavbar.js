@@ -12,13 +12,12 @@ class SiteNavbar extends React.Component {
         return (
             <>
                 <div class="site-navbar-wrap ">
-
                     <div class="site-navbar site-navbar-target js-sticky-header">
                         <div class="container-fluid">
                             <div class="row align-items-center">
                                 <div class="col-6 col-md-6">
                                     <h1 class="my-0 site-logo">
-                                        <Link to="/"><img src="assets/image/image/logo2.png" alt="" width="200" height="75" /></Link>
+                                        <Link to="/"><img src="assets/image/image/logo2.png" alt="" width="200" height="65" /></Link>
                                     </h1>
                                 </div>
                                 <div class="col-6 col-md-6">
