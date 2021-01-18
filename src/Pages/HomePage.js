@@ -1,6 +1,12 @@
 import React from 'react';
 import Products from '../Components/Products';
 import Promotion from '../Components/Promotion';
+// import {
+//     BrowserRouter as Router,
+//     Switch,
+//     Route,
+//     Link
+// } from "react-router-dom";
 
 class HomePage extends React.Component {
 
@@ -15,44 +21,60 @@ class HomePage extends React.Component {
                     img: "assets/image/image/new-year2.jpg"
                 },
                 {
-                    img: "assets/image/image/flat-sale.jpg"
+                    img: "assets/image/image/newyear.jpg"
                 }, 
                 {
-                    img: "assets/image/image/Black-Friday.png"
+                    img: "assets/image/image/new-year4.jpg"
                 }
             ],
             products: [
                 {
                     img: "assets/image/image/01.PNG",
-                    price: "฿ 350"
+                    name: "Under Armour Men's Charged Assert 8 ",
+                    priceN: "20% ฿ 3930",
+                    price: "฿ 4912"
                 },
                 {
                     img: "assets/image/image/02.PNG",
-                    price: "฿ 1490"
+                    name:"Under Armour Men's HOVR Rise 2",
+                    priceN: "20% ฿ 2800",
+                    price: "฿ 3500"
                 },
                 {
                     img: "assets/image/image/03.PNG",
-                    price: "฿ 1850"
+                    name:"Crocs Unisex-Adult Classic Clog",
+                    priceN: "30% ฿ 931",
+                    price: "฿ 1330"
                 },
                 {
                     img: "assets/image/image/04.PNG",
-                    price: "฿ 159"
+                    name:"DREAM PAIRS Women's Dolce Fashion",
+                    priceN: "25% ฿ 682.50",
+                    price: "฿ 910"
                 },
                 {
                     img: "assets/image/image/05.PNG",
-                    price: "฿ 280"
+                    name:"JOY IN LOVE Women's Pumps Shoes",
+                    priceN: "10% ฿ 1354",
+                    price: "฿ 1504"
                 },
                 {
                     img: "assets/image/image/06.PNG",
-                    price: "฿ 990"
+                    name:"LISHAN Women's Platform Stiletto",
+                    priceN: "35% ฿ 1024",
+                    price: "฿ 1575"
                 },
                 {
                     img: "assets/image/image/07.PNG",
-                    price: "฿ 1111"
+                    name:"Women's Open Toe Platform",
+                    priceN: "28% ฿ 882",
+                    price: "฿ 1225"
                 },
                 {
                     img: "assets/image/image/09.PNG",
-                    price: "฿ 1234"
+                    name:"PUMA Women's Carina Sneaker",
+                    priceN: "15% ฿ 3837.75",
+                    price: "฿ 4515"
                 }
             ]
         }
@@ -73,7 +95,7 @@ class HomePage extends React.Component {
                     <div class="row" >
                         {
                             this.state.products.map((p) => (
-                                <Products img={p.img} price={p.price}></Products>
+                                <Products img={p.img} name={p.name} priceN={p.priceN} price={p.price}></Products>
                             ))
                         }
 

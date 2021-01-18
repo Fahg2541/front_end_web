@@ -18,7 +18,7 @@ class SiteNavbar extends React.Component {
                             <div class="row align-items-center">
                                 <div class="col-6 col-md-6">
                                     <h1 class="my-0 site-logo">
-                                        <Link to="/"><img src="assets/image/image/logo1.png" alt="" width="150" height="75" /></Link>
+                                        <Link to="/"><img src="assets/image/image/logo2.png" alt="" width="200" height="75" /></Link>
                                     </h1>
                                 </div>
                                 <div class="col-6 col-md-6">
@@ -34,25 +34,27 @@ class SiteNavbar extends React.Component {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-2">
+                                                    <div class="col-1">
                                                         <span><Link to="/basket"><img src="assets/image/image/basket.png" alt="" width="40" height="40"></img></Link></span>
                                                     </div>
-                                                    <div class="col-1"><a href="#" class="site-menu-toggle js-menu-toggle text-black">
-                                                        <span class="icon-menu h3"></span> <span class="menu-text">Menu</span>
-                                                    </a></div>
+                                                    
+                                                    <div class="col-2">
+                                                        {/* <span class="icon-menu h3"></span>  */}
+                                                        <span><Link to="/login">Login</Link>|Register</span>
+                                                    </div>
                                                 </div>
 
 
                                             </div>
 
-                                            <ul class="site-menu main-menu js-clone-nav d-none d-lg-none">
+                                            {/* <ul class="site-menu main-menu js-clone-nav d-none d-lg-none">
                                                 <li><Link to="/login">Login</Link></li>
                                                 <li><a href="#what-we-do-section" class="nav-link">What We Do</a></li>
                                                 <li><a href="#about-section" class="nav-link">About Us</a></li>
                                                 <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
                                                 <li><a href="#studio-section" class="nav-link">Gallery</a></li>
                                                 <li><a href="#contact-section" class="nav-link">Contact</a></li>
-                                            </ul>
+                                            </ul> */}
                                         </div>
                                     </nav>
                                 </div>
