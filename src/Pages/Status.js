@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 
 class Status extends React.Component{
@@ -8,3 +9,6 @@ class Status extends React.Component{
     }
 }
 export default Status;
+=======
+
+>>>>>>> ef142311afeaa9277fbbef27f9184c7ef273ed0e

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 
 class Address extends React.Component{
@@ -8,3 +9,6 @@ class Address extends React.Component{
     }
 }
 export default Address;
+=======
+
+>>>>>>> ef142311afeaa9277fbbef27f9184c7ef273ed0e
