@@ -61,7 +61,7 @@ class Footer extends React.Component{
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">
-						<h3>Trusted Partners</h3>
+						<h4>Trusted Partners</h4>
 					</div>
 				</div>
 				<div class="row">

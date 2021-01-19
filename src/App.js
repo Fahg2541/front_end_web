@@ -15,6 +15,7 @@ import React from 'react';
 import Login from './Pages/Login';
 import Basket from './Pages/Basket';
 import Search from './Pages/Search';
+import Shoes from './Pages/Shoes';
 import WomanShoes from './Pages/WomanShoes';
 import MenShoes from './Pages/MenShoes';
 
@@ -38,6 +39,9 @@ class App extends React.Component {
           </Route>
           <Route path="/homepage">
             <HomePage/>
+          </Route>
+          <Route path="/shoes">
+            <Shoes/>
           </Route>
           <Route path="/womanShoes">
             <WomanShoes/>

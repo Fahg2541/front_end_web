@@ -33,49 +33,49 @@ class Welcome extends React.Component {
                 {
                     img: "assets/image/01.PNG",
                     name: "Under Armour Men's Charged Assert 8 ",
-                    priceN: "20% ฿ 3930",
+                    priceN: "sale 20% ฿ 3930",
                     price: "฿ 4912"
                 },
                 {
                     img: "assets/image/02.PNG",
                     name:"Under Armour Men's HOVR Rise 2",
-                    priceN: "20% ฿ 2800",
+                    priceN: "sale 20% ฿ 2800",
                     price: "฿ 3500"
                 },
                 {
                     img: "assets/image/03.PNG",
                     name:"Crocs Unisex-Adult Classic Clog",
-                    priceN: "30% ฿ 931",
+                    priceN: "sale 30% ฿ 931",
                     price: "฿ 1330"
                 },
                 {
                     img: "assets/image/04.PNG",
                     name:"DREAM PAIRS Women's Dolce Fashion",
-                    priceN: "25% ฿ 682.50",
+                    priceN: "sale 25% ฿ 682.50",
                     price: "฿ 910"
                 },
                 {
                     img: "assets/image/05.PNG",
                     name:"JOY IN LOVE Women's Pumps Shoes",
-                    priceN: "10% ฿ 1354",
+                    priceN: "sale 10% ฿ 1354",
                     price: "฿ 1504"
                 },
                 {
                     img: "assets/image/06.PNG",
                     name:"LISHAN Women's Platform Stiletto",
-                    priceN: "35% ฿ 1024",
+                    priceN: "sale 35% ฿ 1024",
                     price: "฿ 1575"
                 },
                 {
                     img: "assets/image/07.PNG",
                     name:"Women's Open Toe Platform",
-                    priceN: "28% ฿ 882",
+                    priceN: "sale 28% ฿ 882",
                     price: "฿ 1225"
                 },
                 {
                     img: "assets/image/09.PNG",
                     name:"PUMA Women's Carina Sneaker",
-                    priceN: "15% ฿ 3837.75",
+                    priceN: "sale 15% ฿ 3837.75",
                     price: "฿ 4515"
                 }
             ],
@@ -194,7 +194,7 @@ class Welcome extends React.Component {
                             <p> </p>
 
                             <div class="col-sm-8 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">
-                                <h1>New Promotion</h1>
+                                <h3>New Promotion</h3>
                             </div>
                         <div class="row">
                             {
