@@ -20,15 +20,28 @@ body {
 }
 
 h2 {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-left: 30px;
   padding-bottom: 30px;
+  font: 3em sans-serif;
   color: #033163;
+}
+h3 {
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  font: 1.5em sans-serif;
+  color: #24405f;
+}
+h6 {
+  padding-top: 5px;
+  color: #033163;
+  /* padding-bottom: 30px; */
 }
 p {
   padding-top: 30px;
   padding-left: 30px;
-  /* padding-bottom: 30px; */
+  padding-bottom: 30px;
 }
 a {
   -webkit-transition: 0.3s all ease;
@@ -41,10 +54,8 @@ a:hover {
 }
 
 h1,
-h3,
 h4,
-h5,
-h6 {
+h5 {
   color: #000;
 }
 

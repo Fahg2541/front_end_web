@@ -17,7 +17,7 @@ class SiteNavbar extends React.Component {
                             <div class="row align-items-center">
                                 <div class="col-6 col-md-6">
                                     <h1 class="my-0 site-logo">
-                                        <Link to="/"><img src="assets/image/image/logo2.png" alt="" width="200" height="65" /></Link>
+                                        <Link to="/"><img src="assets/image/logo2.png" alt="" width="200" height="65" /></Link>
                                     </h1>
                                 </div>
                                 <div class="col-6 col-md-6">
@@ -34,7 +34,7 @@ class SiteNavbar extends React.Component {
                                                         </div>
                                                     </div>
                                                     <div class="col-1">
-                                                        <span><Link to="/basket"><img src="assets/image/image/basket.png" alt="" width="40" height="40"></img></Link></span>
+                                                        <span><Link to="/basket"><img src="assets/image/basket.png" alt="" width="40" height="40"></img></Link></span>
                                                     </div>
                                                     
                                                     <div class="col-2">

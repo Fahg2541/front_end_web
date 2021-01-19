@@ -11,15 +11,16 @@ class WomanProducts extends React.Component {
         return (
             <>
                 <div class="col-xl-3 col-lg-4 col-md-8 col-sm-8">
-                    <div class="single-new-pro mb-30 text-center">
-                        <div class="product-img">
+                    <div class="product-entry border">
+                        <div class="product-img text-center">
                         <Link to="/shoes"><img src={this.props.img} alt="" width="185" height="150" /></Link>
                         </div>
-                        <div class="product-caption">
-                            <span>{this.props.name}</span>
-                            <span>{this.props.price}</span>
+                        <div class="product-caption text-center">
+                            <h6>{this.props.name}</h6>
+                            <h6>{this.props.price}</h6>
                         </div>
                     </div>
+                    <p> </p>
                 </div>
             </>
         );
