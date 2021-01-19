@@ -14,6 +14,9 @@ import React from 'react';
 import Login from './Pages/Login';
 import Basket from './Pages/Basket';
 import Search from './Pages/Search';
+import WomanShoes from './Pages/WomanShoes';
+import MenShoes from './Pages/MenShoes';
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -34,6 +37,12 @@ class App extends React.Component {
           </Route>
           <Route path="/homepage">
             <HomePage/>
+          </Route>
+          <Route path="/womanShoes">
+            <WomanShoes/>
+          </Route>
+          <Route path="/menShoes">
+            <MenShoes/>
           </Route>
           <Route path="/login">
             <Login />
