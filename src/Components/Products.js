@@ -14,7 +14,7 @@ class Products extends React.Component {
                     <div class="product-entry border">
                         <div class="product-img text-center">                                
                             <Link to="/shoes" class="prod-img">
-                            <img src={this.props.img} alt="" width="185" height="150" />
+                                <img src={this.props.img} alt="" width="185" height="150" />
                             </Link>
                             </div>
                             <div class="product-caption text-center" >           

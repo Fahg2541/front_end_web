@@ -46,23 +46,46 @@ class Shoes extends React.Component {
                                         <option value="Beige">Beige</option>
                                         <option value="Black">Black</option>
                                     </select> </p>
-                                <p>DESIGN--Platform open toe ankle strap stiletto sandals feature 5.9" 
-                                    high slim heel with 1.18"platform, sexy and comfortable for walking.
-                                    True to size, pl choose your normal size, big sizes for wide feet are avaliable.
-                                    Local warehouse, free exchange.</p>
-                                <div class="product_count">
-                                    <label for="qty">Quantity:</label>
-                                    <input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:" class="input-text qty"/>
-                                    <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
-                                    class="increase items-count" type="button"><i class="lnr lnr-chevron-up"></i></button>
-                                    <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
-                                    class="reduced items-count" type="button"><i class="lnr lnr-chevron-down"></i></button>
-                                </div>
-                                <div class="card_area d-flex align-items-center">
-                                    <a class="primary-btn" href="#">Add to Cart</a>
-                                </div>
+                                <p>
+                                    These shoes look cheaply made the beige/tan colored sole and also on the 
+                                    bottom of the shoe, is not appealing and looks odd w the black shoe. (not a terrible con, just my opinion). 
+                                    Lastly they are pretty difficult to latch on and buckle. The big strap is a bit too thick to get thru the 
+                                    buckle part, it was quite annoying and it took me longer than normal to get them on.
+                                </p>
+                                <div class="col-lg-4">
+                                    <div class="input-group ">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="quantity-left-minus btn"  data-type="minus" data-field="">
+                                            <i class="icon-minus2"></i>
+                                            </button>
+                                        </span>
+                                        <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1" min="1" max="100"/>
+                                        <span class="input-group-btn ml-1">
+                                        <button type="button" class="quantity-right-plus btn" data-type="plus" data-field="">
+                                        <i class="icon-plus2"></i>
+                                        </button>
+                                        </span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+	                  	                <div class="col-sm-3 text-center">
+									        <p class="addtocart"><a href="cart.html" class="btn btn-primary btn-addtocart">
+                                                <i class="icon-shopping-cart"></i> Add to Cart</a></p>
+								        </div>
+							        </div>
                             </div>
                         </div>    
+                    </div>
+                    <div class="tab-content" id="pills-tabContent">
+					    <div class="tab-pane border fade show active" id="pills-description" role="tabpanel" aria-labelledby="pills-description-tab">
+                            <p>
+                                DESIGN--Platform open toe ankle strap stiletto sandals feature 5.9" high slim heel with 1.18"platform, sexy and comfortable for walking.
+                                SEXY--This sexy criss cross platform sandal bring you taller look, more confidence and more compliments, following the trend front. a wonderful wending party club dress couture sandals
+                                GIFTS--Platform stiletto single band ankle strap sandals is the most wished & gift Ideas for wife, daughter, friend.
+                                OCCASION--This single band platform sandals offer a fashion look and comfortable to walk around in all day. Suitable for casual, party, office, dating, evening, dancing, pair with jeans for casual use. Wear with a dress for a night out!
+                                FIT--True to size, pl choose your normal size, big sizes for wide feet are avaliable.Local warehouse, free exchange.
+                            </p>
+                        </div>
                     </div>
                 </div>
         );

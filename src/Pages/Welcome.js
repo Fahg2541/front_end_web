@@ -14,21 +14,8 @@ class Welcome extends React.Component {
 
     constructor(props) {
         super(props);
+        
         this.state = {
-            promotion: [
-                {
-                    img: "assets/image/new-year1.jpg"
-                },
-                {
-                    img: "assets/image/new-year2.jpg"
-                },
-                {
-                    img: "assets/image/newyear.jpg"
-                } 
-                ,{
-                    img: "assets/image/new-year4.jpg"
-                }
-            ],
             products: [
                 {
                     img: "assets/image/01.PNG",
