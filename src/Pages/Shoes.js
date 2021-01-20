@@ -31,11 +31,25 @@ class Shoes extends React.Component {
                                 <h4>฿ 1575</h4>
                                 <p>Brand: LISHAN</p> 
                                 <p>Availibility : In Stock</p>
-                                <p>Size : </p>
-                                <p>Color : </p>
-                                <p>Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for
-                                    something that can make your interior look awesome, and at the same time give you the pleasant warm feeling
-                                    during the winter.</p>
+                                <p>Size :  
+                                    <select name="Size" id="Size">
+                                        <option value="36">36</option>
+                                        <option value="37">37</option>
+                                        <option value="38">38</option>
+                                        <option value="39">39</option>
+                                        <option value="40">40</option>
+                                        <option value="41">41</option>
+                                        <option value="42">42</option>
+                                    </select> </p>
+                                <p>Color :  
+                                    <select name="Color" id="color">
+                                        <option value="Beige">Beige</option>
+                                        <option value="Black">Black</option>
+                                    </select> </p>
+                                <p>DESIGN--Platform open toe ankle strap stiletto sandals feature 5.9" 
+                                    high slim heel with 1.18"platform, sexy and comfortable for walking.
+                                    True to size, pl choose your normal size, big sizes for wide feet are avaliable.
+                                    Local warehouse, free exchange.</p>
                                 <div class="product_count">
                                     <label for="qty">Quantity:</label>
                                     <input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:" class="input-text qty"/>
