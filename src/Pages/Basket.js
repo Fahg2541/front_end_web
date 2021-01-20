@@ -3,7 +3,9 @@ import React from 'react';
 class Basket extends React.Component{
     render() {
         return (
-            <>Basket</>
+            <div class="container-fluid">
+                <p>Home >> Basket</p>
+            </div>
         );
     }
 }

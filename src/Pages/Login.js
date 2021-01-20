@@ -41,49 +41,45 @@ class Login extends React.Component {
             return <Redirect to="/homepage" />
         }
         return (
-            <div class="login-wrapper" id="login-content">
-                <div class="login-content">
-                    <h3>Login</h3>
-                    <form onSubmit={this.handleSubmit}>
-                        <div class="row">
-                            <label for="username">
-                                Username:
-                                <input type="text" name="username" id="username" placeholder="username" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" onChange = {this.handleChange}/>
-                            </label>
-                        </div>
-                    
-                        <div class="row">
-                            <label for="password">
-                                Password:
-                                <input type="password" name="password" id="password" placeholder="******" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" onChange = {this.handleChange} />
-                            </label>
-                        </div>
-                        <div class="row">
-                            <div class="remember">
-                                <div>
-                                    <input type="checkbox" name="remember" value="Remember me"><span>Remember me</span></input>
-                                </div>
-                                <a href="#">Forget password ?</a>
+            <section class="login_box_area section_gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="login_box_img">
+                            <img class="img-fluid" src="img/login.jpg" alt=""/>
+                            <div class="hover">
+                                <h4>New to our website?</h4>
+                                <p>There are advances being made in science and technology everyday, and a good example of this is the</p>
+                                <a class="primary-btn" href="registration.html">Create an Account</a>
                             </div>
                         </div>
-                        <div class="row">
-                            <button type="submit">Login</button>
-                        </div>
-                    </form>
-                    <Switch>
-                            <Route path="/homepage">
-                                <HomePage/>
-                            </Route>
-                        </Switch>
-                    <div class="row">
-                        <p>Or via social</p>
-                        <div class="social-btn-2">
-                            <a class="fb" href="#"><i class="ion-social-facebook"></i>Facebook</a>
-                            <a class="tw" href="#"><i class="ion-social-twitter"></i>twitter</a>
-                        </div>
                     </div>
-                </div>
-            </div>
+				<div class="col-lg-6">
+					<div class="login_form_inner">
+						<h3>Log in to enter</h3>
+						<form class="row login_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+							<div class="col-md-12 form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'"/>
+							</div>
+							<div class="col-md-12 form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'"/>
+							</div>
+							<div class="col-md-12 form-group">
+								<div class="creat_account">
+									<input type="checkbox" id="f-option2" name="selector"></input>
+									<label for="f-option2">Keep me logged in</label>
+								</div>
+							</div>
+							<div class="col-md-12 form-group">
+								<button type="submit" value="submit" class="primary-btn">Log In</button>
+								<a href="#">Forgot Password?</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+        </section>
         );
     }
 }
