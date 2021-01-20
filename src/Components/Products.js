@@ -18,9 +18,9 @@ class Products extends React.Component {
                             </Link>
                             </div>
                             <div class="product-caption text-center" >           
-                                <h6>{this.props.name}</h6>
-                                <h5>{this.props.priceN}</h5>
-                                <h6>{this.props.price}</h6>
+                                <h7>{this.props.name}</h7>
+                                <h6>{this.props.priceN}</h6>
+                                <h7>{this.props.price}</h7>
                             </div>
                         </div>
                          <p> </p> 

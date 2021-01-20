@@ -62,7 +62,7 @@ class Footer extends React.Component{
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-8 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">
-                                <h4>Trusted Partners</h4>
+                                <h5>Trusted Partners</h5>
                             </div>
                         </div>
                         <div class="product-entry border bg-white">
@@ -74,7 +74,7 @@ class Footer extends React.Component{
                             }
                         </div></div>
                     </div><p> </p>
-				    <h6>Copyright &copy;<script>document.write(new Date().getFullYear());</script>Group1.All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank"></a>Colorlib</h6>
+				    <h7>Copyright &copy;<script>document.write(new Date().getFullYear());</script>Group1.All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank"></a>Colorlib</h7>
 			    </div>
             </div>
         )

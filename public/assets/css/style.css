@@ -18,7 +18,11 @@ body {
   background: #000;
   color: #fff;
 }
-
+h1 {
+  padding-bottom: 30px;
+  font: 2.5em sans-serif;
+  color: #033163;
+}
 h2 {
   padding-top: 100px;
   padding-left: 30px;
@@ -28,25 +32,29 @@ h2 {
 }
 h3 {
   /* padding-top: 30px; */
-  padding-left: 30px;
-  padding-bottom: 30px;
-  font: 2.5em sans-serif;
+  /* padding-left: 30px; */
+  padding-bottom: 10px;
+  font: 2em sans-serif;
   color: #033163;
 }
 h4 {
+  font: 1.5em sans-serif;
+  color: #24405f;
+}
+h5 {
   padding-top: 100px;
   padding-left: 30px;
   padding-bottom: 30px;
   font: 1.5em sans-serif;
   color: #24405f;
 }
-h5 {
+h6 {
   padding-top: 5px;
   color: #bd1111;
   font: 0.95em serif;
   /* padding-bottom: 30px; */
 }
-h6 {
+h7 {
   padding-top: 5px;
   color: #081625;
   font: 0.95em serif;
@@ -65,10 +73,6 @@ a {
 
 a:hover {
   text-decoration: none;
-}
-
-h1 {
-  color: #000;
 }
 
 .position-relative {

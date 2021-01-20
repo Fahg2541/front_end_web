@@ -16,8 +16,8 @@ class WomanProducts extends React.Component {
                         <Link to="/shoes"><img src={this.props.img} alt="" width="185" height="150" /></Link>
                         </div>
                         <div class="product-caption text-center">
-                            <h6>{this.props.name}</h6>
-                            <h6>{this.props.price}</h6>
+                            <h7>{this.props.name}</h7>
+                            <h7>{this.props.price}</h7>
                         </div>
                     </div>
                     <p> </p>

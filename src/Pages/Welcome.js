@@ -208,7 +208,7 @@ class Welcome extends React.Component {
                             <p> </p>
 
                             <div class="col-sm-8 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">
-                                <h3>New Promotion</h3>
+                                <h1>New Promotion</h1>
                             </div>
                         <div class="row">
                             {
