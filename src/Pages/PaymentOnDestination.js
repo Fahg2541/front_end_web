@@ -12,6 +12,7 @@ class PaymentOnDestination extends React.Component {
             <>
                 <main>
                     <div class="container-fluid">
+                    <p>Basket >> Payment >> Cash on Delivery</p>
                         <div class="col-sm-8 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">
                             <h1>Thank you for your order</h1>
                             <h5>Order number 0123456789012345 your</h5>
@@ -37,7 +38,7 @@ class PaymentOnDestination extends React.Component {
                                                     <a class="prod-img" >
                                                         <img src="assets/image/432.png" alt="" width="185" height="150"></img>
                                                     </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                                            Est.19 ม.ค.-22 ม.ค.
+                                            Est.19 Jan-22 Jan
                                             </div>
                                             </div>
                                         </div>
@@ -47,7 +48,7 @@ class PaymentOnDestination extends React.Component {
                                                     <a class="prod-img" >
                                                         <img src="assets/image/441.png" alt="" width="185" height="150"></img>
                                                     </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                                            Est.19 ม.ค.-22 ม.ค.
+                                            Est.19 Jan-22 Jan
                                             </div>
                                             </div>
                                         </div>
@@ -57,24 +58,23 @@ class PaymentOnDestination extends React.Component {
                                                     <a class="prod-img" >
                                                         <img src="assets/image/481.png" alt="" width="185" height="150"></img>
                                                     </a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                                            Est.19 ม.ค.-22 ม.ค.
+                                            Est.19 Jan-22 Jan
                                             </div>
                                             </div>
                                         </div>
 
                                     </div>
+                                    <br></br>
                                     <div class="col-sm-5 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">
                                         <h4>Order summary &emsp;&emsp; ฿14995.00</h4>
                                     </div>
 
                                 </div>
                                 <div class="product-caption text-center">
-                                    <Link to="/homepage"><button class="btn btn-secondary" type="button" id="button">Shop</button></Link>
+                                    <Link to="/payment"><button class="btn-v" type="button" id="button">Back to Payment</button></Link>&nbsp;&nbsp;
+                                    <Link to="/homepage"><button class="btn-v" type="button" id="button">Shop</button></Link>
                                 </div>
-
-
-
-
+                                <br></br>
                             </div>
 
 

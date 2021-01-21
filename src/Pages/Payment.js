@@ -6,6 +6,7 @@ class Payment extends React.Component {
             <>
                 <main>
                     <div class="container-fluid">
+                    <p>Basket >> Payment</p>
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                             </div>
@@ -47,8 +48,10 @@ class Payment extends React.Component {
 
                                     <div class="product-caption text-center">
                                         <h3>Order summary</h3>
-                                        <p>Total (3 piece) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ฿14995.00</p>
+                                        <br></br>
                                         <p>Total &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ฿14995.00</p>
+                                        
+                                        <br></br>
                                     </div>
                                 </div>
                             </div>

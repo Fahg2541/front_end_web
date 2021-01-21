@@ -12,6 +12,7 @@ class DebitCard extends React.Component {
             <>
                 <main>
                     <div class="container-fluid">
+                        <p>Basket >> Payment >> Debit Card</p>
                         <div class="col-sm-8 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">
                             <h1>Thank you for your order</h1>
                             <h5>Order number 0123456789012345 your</h5>
@@ -63,8 +64,10 @@ class DebitCard extends React.Component {
 
                                 </div>
                                 <div class="product-caption text-center">
-                                    <Link to="/homepage"><button class="btn btn-secondary" type="button" id="button">shop</button></Link>
-                                </div>
+                                    <Link to="/payment"><button class="btn-v" type="button" id="button">Back to Payment</button></Link>&nbsp;&nbsp;
+                                    <Link to="/homepage"><button class="btn-v" type="button" id="button">shop</button></Link>
+                                    
+                                </div><br></br>
 
 
 
