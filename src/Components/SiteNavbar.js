@@ -60,7 +60,7 @@ class SiteNavbar extends React.Component {
                                             <ul class="site-menu main-menu js-clone-nav d-none d-lg-none">
                                                 
                                                 <li><Link to="/profile">Profile</Link></li>
-                                                <li><Link to="/address">Address</Link></li>
+                                                <li><Link to="/address">Add Address</Link></li>
                                                 <li><Link to="/womanShoes">Woman</Link></li>
                                                 <li><Link to="/menShoes">Men</Link></li>
                                                 <li><Link to="/status">Status</Link></li>

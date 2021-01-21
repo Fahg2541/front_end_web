@@ -15,6 +15,7 @@ import React from 'react';
 import Login from './Pages/Login';
 import Basket from './Pages/Basket';
 import Profile from './Pages/Profile';
+import Address from './Pages/Address';
 import Search from './Pages/Search';
 import Shoes from './Pages/Shoes';
 import Status from './Pages/Status';
@@ -50,6 +51,9 @@ class App extends React.Component {
           </Route>
           <Route path="/profile">
             <Profile />
+          </Route>
+          <Route path="/address">
+            <Address/>
           </Route>
           <Route path="/shoes">
             <Shoes />
