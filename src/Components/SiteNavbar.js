@@ -37,23 +37,27 @@ class SiteNavbar extends React.Component {
                                                         <span><Link to="/basket"><img src="assets/image/basket.png" alt="" width="40" height="40"></img></Link></span>
                                                     </div>
                                                     
-                                                    <div class="col-2">
+                                                    
+                                                    <div class="col-1">
+                                                        <a href="#" class="site-menu-toggle js-menu-toggle text-black">
                                                         {/* <span class="icon-menu h3"></span>  */}
-                                                        <span><Link to="/login">Login</Link>|Register</span>
+                                                        <h4><h5 class="menu-text">Pages</h5></h4>
+                                                        {/* <span><Link to="/login">Login</Link>|Register</span> */}
+                                                        </a>
                                                     </div>
                                                 </div>
 
 
                                             </div>
 
-                                            {/* <ul class="site-menu main-menu js-clone-nav d-none d-lg-none">
+                                            <ul class="site-menu main-menu js-clone-nav d-none d-lg-none">
                                                 <li><Link to="/login">Login</Link></li>
-                                                <li><a href="#what-we-do-section" class="nav-link">What We Do</a></li>
+                                                <li><Link to="/profile">Profile</Link></li>
                                                 <li><a href="#about-section" class="nav-link">About Us</a></li>
                                                 <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
                                                 <li><a href="#studio-section" class="nav-link">Gallery</a></li>
                                                 <li><a href="#contact-section" class="nav-link">Contact</a></li>
-                                            </ul> */}
+                                            </ul>
                                         </div>
                                     </nav>
                                 </div>

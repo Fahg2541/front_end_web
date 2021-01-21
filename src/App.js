@@ -37,8 +37,8 @@ class App extends React.Component {
           <Route path="/basket">
             <Basket/>
           </Route>
-          <Route path="/homepage">
-            <HomePage/>
+          <Route path="/profile">
+            <Profile/>
           </Route>
           <Route path="/shoes">
             <Shoes/>
@@ -53,7 +53,7 @@ class App extends React.Component {
             <Login />
           </Route>
           <Route path="/">
-            <Welcome />
+            <HomePage />
           </Route>
           </Switch>
         <Footer />

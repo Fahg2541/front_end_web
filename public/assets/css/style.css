@@ -41,20 +41,20 @@ h4 {
   font: 1.5em sans-serif;
   color: #24405f;
 }
-h5 {
+/* h5 {
   padding-top: 100px;
   padding-left: 30px;
   padding-bottom: 30px;
   font: 1.5em sans-serif;
   color: #24405f;
-}
+} */
 h6 {
   padding-top: 5px;
   color: #bd1111;
   font: 0.95em serif;
   /* padding-bottom: 30px; */
 }
-h7 {
+h5 {
   padding-top: 5px;
   color: #081625;
   font: 0.95em serif;
@@ -72,7 +72,23 @@ p {
   text-decoration: none;
   border: 2px solid #008cba;
 }
-.pro-qty {
+.display-tc,
+.product-name .display-tc {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100px;
+  width: 100%;
+}
+.product-cart .display-tc .closed,
+.product-name .display-tc .closed {
+  display: block;
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+  background: #f2f2f2;
+  position: relative;
+}
+/* .pro-qty {
   width: 140px;
   height: 50px;
   display: inline-block;
@@ -87,7 +103,7 @@ p {
   color: #6f6f6f;
   cursor: pointer;
   display: inline-block;
-}
+} */
 a {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
