@@ -28,7 +28,7 @@ class SiteNavbar extends React.Component {
                                                 <div class="row">
                                                     <div class="col-9">
                                                         <div class="input-group">
-                                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                                            <input type="text" class="form-control border border-dark" aria-label=" " >
                                                             
                                                             </input>
 

@@ -31,7 +31,7 @@ class Shoes extends React.Component {
                                 <h4>฿ 1575</h4>
                                 <p>Brand: LISHAN</p> 
                                 <p>Availibility : In Stock</p>
-                                <p>Size :  
+                                <p>Size :&nbsp;  
                                     <select name="Size" id="Size">
                                         <option value="36">36</option>
                                         <option value="37">37</option>
@@ -41,7 +41,7 @@ class Shoes extends React.Component {
                                         <option value="41">41</option>
                                         <option value="42">42</option>
                                     </select> </p>
-                                <p>Color :  
+                                <p>Color :&nbsp;  
                                     <select name="Color" id="color">
                                         <option value="Beige">Beige</option>
                                         <option value="Black">Black</option>
@@ -76,16 +76,17 @@ class Shoes extends React.Component {
                                 </div> */}
                                     <div class="row">
 	                  	                <div class="col-sm-3 text-center">
-									        <p class="addtocart"><a href="cart.html" class="btn btn-primary btn-addtocart">
-                                                <i class="icon-shopping-cart"></i> Add to Cart</a></p>
-								        </div>
-							        </div>
-                            </div>
-                        </div>    
-                    </div>
-                    <div class="tab-content" id="pills-tabContent">
-					    <div class="tab-pane border fade show active" id="pills-description" role="tabpanel" aria-labelledby="pills-description-tab">
-                            <p><h7>Product Details</h7></p>
+                                              <br></br>
+                                            <button class="btn-v"> Add to Cart</button>
+                                           
+                                        </div>
+                                    </div> <br></br>
+                            </div>    
+                        </div>
+                    
+                    <div class="card">
+					    <div class="card-body">
+                            <p><h5>Product Details</h5></p>
                             <ul class="list">
                                 <li> Platform open toe ankle strap stiletto sandals feature 5.9" high slim heel with 1.18"platform, sexy and comfortable for walking.</li>
                                 <li>This sexy criss cross platform sandal bring you taller look, more confidence and more compliments, following the trend front. a wonderful wending party club dress couture sandals.</li>
@@ -96,6 +97,7 @@ class Shoes extends React.Component {
                         </div>
                     </div>
                 </div>
+            </div>    
         );
     }
 }

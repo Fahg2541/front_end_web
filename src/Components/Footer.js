@@ -62,8 +62,12 @@ class Footer extends React.Component{
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-8 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">
+                                
                                 <p> </p>
+                                <hr></hr>
+                                <br></br>
                                 <h4>Trusted Partners</h4>
+                                <br></br>
                             </div>
                         </div>
                         {/* <div class="product-entry border bg-white"> */}

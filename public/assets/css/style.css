@@ -406,6 +406,7 @@ a:hover {
   position: relative;
   z-index: 99;
   width: 100%;
+
   left: 0;
   background: #fff;
 }
@@ -425,6 +426,7 @@ a:hover {
 .site-navbar {
   margin-bottom: 0px;
   width: 100%;
+
   padding: 15px 0;
   color: #aaaaaa;
 }
