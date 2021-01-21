@@ -15,11 +15,11 @@ class Address extends React.Component{
                         <input type="text" class="form-control border border-dark"  aria-label="phone" placeholder="(+66)"/>
                     </div>
                     <div class="col-md-6">
-                        <label for="colFormLabel" class="col-sm-2 col-form-label">House No:</label>
+                        <label for="colFormLabel" class="col-sm-3 col-form-label">House No:</label>
                         <input type="text" class="form-control border border-dark"  aria-label="house no"/>
                     </div>
                     <div class="col-md-6">
-                        <label for="colFormLabel" class="col-sm-2 col-form-label">Village No:</label>
+                        <label for="colFormLabel" class="col-sm-3 col-form-label">Village No:</label>
                         <input type="text" class="form-control border border-dark"  aria-label="village no"/>
                     </div>
                     <div class="col-md-6">
@@ -39,7 +39,7 @@ class Address extends React.Component{
                         <input type="text" class="form-control border border-dark"  aria-label="lane"/>
                     </div>
                     <div class="col-md-6">
-                        <label for="colFormLabel" class="col-sm-2 col-form-label">Sub-district:</label>
+                        <label for="colFormLabel" class="col-sm-3 col-form-label">Sub-district:</label>
                         <input type="text" class="form-control border border-dark"  aria-label="sub-district"/>
                     </div>
                     <div class="col-md-6">
@@ -51,7 +51,7 @@ class Address extends React.Component{
                         <input type="text" class="form-control border border-dark"  aria-label="province"/>
                     </div>
                     <div class="col-md-6">
-                        <label for="colFormLabel" class="col-sm-2 col-form-label">Postal Code:</label>
+                        <label for="colFormLabel" class="col-sm-3 col-form-label">Postal Code:</label>
                         <input type="text" class="form-control border border-dark"  aria-label="postal code"/>
                     </div>
                 </div>
