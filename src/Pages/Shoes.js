@@ -54,19 +54,26 @@ class Shoes extends React.Component {
                                 </p>
                                 <div class="col-lg-4">
                                     <div class="input-group ">
-                                        <span class="input-group-btn">
+                                        {/* <span class="input-group-btn">
                                             <button type="button" class="quantity-left-minus btn"  data-type="minus" data-field="">
                                             <i class="icon-minus2"></i>
                                             </button>
-                                        </span>
+                                        </span> */}
                                         <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1" min="1" max="100"/>
-                                        <span class="input-group-btn ml-1">
+                                        {/* <span class="input-group-btn ml-1">
                                         <button type="button" class="quantity-right-plus btn" data-type="plus" data-field="">
                                         <i class="icon-plus2"></i>
                                         </button>
-                                        </span>
-                                        </div>
+                                        </span> */}
                                     </div>
+                                </div>
+                                {/* <div class="quantity">
+                                    <div class="pro-qty">
+                                        <span class="dec qtyrtn">-</span>
+                                        <input type="text" value="1"></input>
+                                        <span class="inc qtybtn">+</span>
+                                    </div>
+                                </div> */}
                                     <div class="row">
 	                  	                <div class="col-sm-3 text-center">
 									        <p class="addtocart"><a href="cart.html" class="btn btn-primary btn-addtocart">
@@ -78,13 +85,14 @@ class Shoes extends React.Component {
                     </div>
                     <div class="tab-content" id="pills-tabContent">
 					    <div class="tab-pane border fade show active" id="pills-description" role="tabpanel" aria-labelledby="pills-description-tab">
-                            <p>
-                                DESIGN--Platform open toe ankle strap stiletto sandals feature 5.9" high slim heel with 1.18"platform, sexy and comfortable for walking.
-                                SEXY--This sexy criss cross platform sandal bring you taller look, more confidence and more compliments, following the trend front. a wonderful wending party club dress couture sandals
-                                GIFTS--Platform stiletto single band ankle strap sandals is the most wished & gift Ideas for wife, daughter, friend.
-                                OCCASION--This single band platform sandals offer a fashion look and comfortable to walk around in all day. Suitable for casual, party, office, dating, evening, dancing, pair with jeans for casual use. Wear with a dress for a night out!
-                                FIT--True to size, pl choose your normal size, big sizes for wide feet are avaliable.Local warehouse, free exchange.
-                            </p>
+                            <p><h7>Product Details</h7></p>
+                            <ul class="list">
+                                <li> Platform open toe ankle strap stiletto sandals feature 5.9" high slim heel with 1.18"platform, sexy and comfortable for walking.</li>
+                                <li>This sexy criss cross platform sandal bring you taller look, more confidence and more compliments, following the trend front. a wonderful wending party club dress couture sandals.</li>
+                                <li>Platform stiletto single band ankle strap sandals is the most wished & gift Ideas for wife, daughter, friend.</li>
+                                <li>This single band platform sandals offer a fashion look and comfortable to walk around in all day. Suitable for casual, party, office, dating, evening, dancing, pair with jeans for casual use. Wear with a dress for a night out!</li>
+                                <li>True to size, pl choose your normal size, big sizes for wide feet are avaliable.Local warehouse, free exchange.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
