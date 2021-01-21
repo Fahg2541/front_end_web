@@ -12,7 +12,7 @@ class Address extends React.Component{
                     </div>
                     <div class="col-md-6">
                         <label for="colFormLabel" class="col-sm-2 col-form-label">Phone:</label>
-                        <input type="text" class="form-control border border-dark"  aria-label="phone"/>
+                        <input type="text" class="form-control border border-dark"  aria-label="phone" placeholder="(+66)"/>
                     </div>
                     <div class="col-md-6">
                         <label for="colFormLabel" class="col-sm-2 col-form-label">House No:</label>
@@ -28,7 +28,7 @@ class Address extends React.Component{
                     </div>
                     <div class="col-md-6">
                         <label for="colFormLabel" class="col-sm-2 col-form-label">Floor:</label>
-                        <input type="text" class="form-control border border-dark"  aria-label="floor" placeholder="(+66)"/>
+                        <input type="text" class="form-control border border-dark"  aria-label="floor" />
                     </div>
                     <div class="col-md-6">
                         <label for="colFormLabel" class="col-sm-2 col-form-label">Roud:</label>
@@ -57,7 +57,7 @@ class Address extends React.Component{
                 </div>
                 <hr></hr>
                 <div class="col-12 text-center" >
-                  <button type="submit" class="btn btn-warning">Submit</button>
+                  <button type="submit" class="btn-v">Submit</button>
                 </div>
 
             </div>

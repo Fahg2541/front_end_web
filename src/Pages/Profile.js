@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Profile extends React.Component{       
     render() {
@@ -43,7 +44,8 @@ class Profile extends React.Component{
                             </div>
                         </div>
                         <div class="col-12 text-center">
-                            <button class="btn-v">Save</button>
+                            <button class="btn-v">Save</button>&nbsp;&nbsp;
+                            <Link to="/address"><button class="btn-v">Add Address</button></Link>
                             
                         </div>
                 </div>

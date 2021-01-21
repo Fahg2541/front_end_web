@@ -182,15 +182,16 @@ a:hover {
 }
 .btn-s {
   /* border-width: 2px; */
-  border-color: #f1f0ed;
-  text: #0c0901;
+  background-color: #393d39;
+  /* border-color: #0c0901; */
+  color: white;
   /* border-radius: 30px; */
   width: 60px;
   height: 48px;
 }
 .btn-s:hover {
-  background-color: #393d39;
-  color: white;
+  background-color: white;
+  color: #393d39;
 }
 .btn:active,
 .btn:focus {
