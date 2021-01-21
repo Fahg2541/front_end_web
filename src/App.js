@@ -17,8 +17,10 @@ import Basket from './Pages/Basket';
 import Profile from './Pages/Profile';
 import Search from './Pages/Search';
 import Shoes from './Pages/Shoes';
+import Status from './Pages/Status';
 import WomanShoes from './Pages/WomanShoes';
 import MenShoes from './Pages/MenShoes';
+import Payment from './Pages/Payment';
 
 class App extends React.Component {
   constructor(props) {
@@ -44,11 +46,17 @@ class App extends React.Component {
           <Route path="/shoes">
             <Shoes/>
           </Route>
+          <Route path="/status">
+            <Status/>
+          </Route>
           <Route path="/womanShoes">
             <WomanShoes/>
           </Route>
           <Route path="/menShoes">
             <MenShoes/>
+          </Route>
+          <Route path="/payment">
+            <Payment />
           </Route>
           <Route path="/login">
             <Login />

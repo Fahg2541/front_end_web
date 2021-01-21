@@ -65,6 +65,9 @@ p {
   padding-left: 30px;
   /* padding-bottom: 30px; */
 }
+.t {
+  padding-top: 30px;
+}
 .button2 {
   background-color: white;
   color: black;
@@ -177,7 +180,14 @@ a:hover {
   border-width: 2px;
   border-radius: 30px;
 }
-
+.btn-s {
+  /* border-width: 2px; */
+  border-color: #f1f0ed;
+  text: #0c0901;
+  /* border-radius: 30px; */
+  width: 60px;
+  height: 48px;
+}
 .btn:active,
 .btn:focus {
   outline: none;
