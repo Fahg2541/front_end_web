@@ -87,7 +87,7 @@ class Basket extends React.Component{
                                     <h5>Total : 14995 </h5>
                                     <h3> </h3>
 
-                                <Link to="/payment"><button class="btn btn-secondary" type="button" id="button">Payment</button></Link>
+                                <Link to="/payment"><button class="btn-v" type="button" id="button">Payment</button></Link>
                             </div>
                         </div>
                         
