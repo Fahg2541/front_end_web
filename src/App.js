@@ -22,6 +22,8 @@ import Status from './Pages/Status';
 import WomanShoes from './Pages/WomanShoes';
 import MenShoes from './Pages/MenShoes';
 import Payment from './Pages/Payment';
+import PaymentOnDestination from './Pages/PaymentOnDestination';
+import DebitCard from './Pages/DebitCard';
 
 class App extends React.Component {
   constructor(props) {
@@ -35,40 +37,43 @@ class App extends React.Component {
         <SiteNavbar />
 
         <Switch>
+          <Route path="/debit">
+            <DebitCard />
+          </Route>
+          <Route path="/paymentondestination">
+            <PaymentOnDestination/>
+          </Route>
           <Route path="/search">
-            <Search/>
+            <Search />
           </Route>
           <Route path="/basket">
-            <Basket/>
+            <Basket />
           </Route>
           <Route path="/profile">
-            <Profile/>
+            <Profile />
           </Route>
           <Route path="/address">
             <Address/>
           </Route>
           <Route path="/shoes">
-            <Shoes/>
+            <Shoes />
           </Route>
           <Route path="/status">
-            <Status/>
+            <Status />
           </Route>
           <Route path="/womanShoes">
-            <WomanShoes/>
+            <WomanShoes />
           </Route>
           <Route path="/menShoes">
-            <MenShoes/>
+            <MenShoes />
           </Route>
           <Route path="/payment">
             <Payment />
           </Route>
-          <Route path="/login">
-            <Login />
-          </Route>
           <Route path="/">
             <HomePage />
           </Route>
-          </Switch>
+        </Switch>
         <Footer />
       </Router>
     )
