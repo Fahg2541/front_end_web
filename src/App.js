@@ -14,6 +14,7 @@ import Welcome from './Pages/Welcome';
 import React from 'react';
 import Login from './Pages/Login';
 import Basket from './Pages/Basket';
+import Profile from './Pages/Profile';
 import Search from './Pages/Search';
 import Shoes from './Pages/Shoes';
 import WomanShoes from './Pages/WomanShoes';
