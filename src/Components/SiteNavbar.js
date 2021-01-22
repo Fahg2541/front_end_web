@@ -44,10 +44,7 @@ class SiteNavbar extends React.Component {
                                                     <div class="col-1">
                                                         <a href="#" class="site-menu-toggle js-menu-toggle text-black">
 
-                                                        {/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                                                            <MenuIcon />
-                                                        </IconButton> */}
-                                                        {/* <span class="icon-menu h3"></span>  */}
+
                                                         <h4><h5 class="menu-text">Pages</h5></h4>
                                                         {/* <span><Link to="/login">Login</Link>|Register</span> */}
                                                         </a>

@@ -5,6 +5,7 @@ class Brand extends React.Component {
         return (
             <>
             <div class="row">
+                <div class="col-2" >
                 <div class="col-xl-4">
                     {/* <div class="mb-10 text-center"> */}
                     {/* <div class="product-entry border"> */}
@@ -13,7 +14,7 @@ class Brand extends React.Component {
                         </div>
                     {/* </div> */}
                     {/* </div> */}
-                </div>
+                </div></div>
             </div>
             </>
         )

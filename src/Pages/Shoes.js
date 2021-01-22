@@ -60,20 +60,10 @@ class Shoes extends React.Component {
                                             </button>
                                         </span> */}
                                         <input type="text" id="quantity" name="quantity" class="form-control  border border-dark input-number" value="1" min="1" max="100"/>
-                                        {/* <span class="input-group-btn ml-1">
-                                        <button type="button" class="quantity-right-plus btn" data-type="plus" data-field="">
-                                        <i class="icon-plus2"></i>
-                                        </button>
-                                        </span> */}
+                                        
                                     </div>
                                 </div>
-                                {/* <div class="quantity">
-                                    <div class="pro-qty">
-                                        <span class="dec qtyrtn">-</span>
-                                        <input type="text" value="1"></input>
-                                        <span class="inc qtybtn">+</span>
-                                    </div>
-                                </div> */}
+                                
                                 <br></br>
                                     <div class="row">
 	                  	                <div class="col-sm-3 text-center">

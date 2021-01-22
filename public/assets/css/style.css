@@ -31,8 +31,6 @@ h2 {
   color: #033163;
 }
 h3 {
-  /* padding-top: 30px; */
-  /* padding-left: 30px; */
   padding-bottom: 10px;
   font: 2em sans-serif;
   color: #033163;
@@ -41,13 +39,7 @@ h4 {
   font: 1.5em sans-serif;
   color: #24405f;
 }
-/* h5 {
-  padding-top: 100px;
-  padding-left: 30px;
-  padding-bottom: 30px;
-  font: 1.5em sans-serif;
-  color: #24405f;
-} */
+
 h6 {
   padding-top: 5px;
   color: #bd1111;
